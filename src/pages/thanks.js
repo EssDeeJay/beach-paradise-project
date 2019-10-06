@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from '../components/layout';
-import Nav from '../components/nav';
+import Layout from '../components/Layout';
+import Nav from '../components/Nav';
 import './contact.css';
 
 const Thanks = () => (

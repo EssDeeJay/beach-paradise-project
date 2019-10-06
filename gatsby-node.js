@@ -69,7 +69,7 @@ const getArchive = makeRequest(graphql, `
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/blog` : `/blog/${i + 1}`,
-      component: path.resolve("./src/templates/archive.js"),
+      component: path.resolve("./src/templates/Archive.js"),
       context: {
         limit: blogsPerPage,
         skip: i * blogsPerPage,
@@ -106,7 +106,7 @@ const getGuide = makeRequest(graphql, `
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/category/guide` : `/category/guide/${i + 1}`,
-      component: path.resolve("./src/templates/guide.js"),
+      component: path.resolve("./src/templates/Guide.js"),
       context: {
         limit: blogsPerPage,
         skip: i * blogsPerPage,
@@ -143,7 +143,7 @@ const getTickets = makeRequest(graphql, `
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/category/tickets` : `/category/tickets/${i + 1}`,
-      component: path.resolve("./src/templates/tickets.js"),
+      component: path.resolve("./src/templates/Tickets.js"),
       context: {
         limit: blogsPerPage,
         skip: i * blogsPerPage,
@@ -180,7 +180,7 @@ const getDirections = makeRequest(graphql, `
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/category/directions` : `/category/directions/${i + 1}`,
-      component: path.resolve("./src/templates/directions.js"),
+      component: path.resolve("./src/templates/Directions.js"),
       context: {
         limit: blogsPerPage,
         skip: i * blogsPerPage,
@@ -217,7 +217,7 @@ const getFood = makeRequest(graphql, `
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/category/food` : `/category/food/${i + 1}`,
-      component: path.resolve("./src/templates/food.js"),
+      component: path.resolve("./src/templates/Food.js"),
       context: {
         limit: blogsPerPage,
         skip: i * blogsPerPage,

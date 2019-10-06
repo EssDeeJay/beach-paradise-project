@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { window } from 'browser-monads';
-import logo from '../../images/beachparadiselogo.png';
+import logo from '../../images/beach-paradise-logo.png';
 import './nav.css';
 
 const Nav = () => (

@@ -3,10 +3,10 @@ import { Link } from 'gatsby';
 import Nav from '../components/Nav';
 import Featured from '../components/featured';
 import Home from '../components/home';
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Footer from '../components/footer';
 import SEO from "../components/seo";
-import './index.css'
+import './index.css';
 
 const IndexPage = () => (
   <Layout>

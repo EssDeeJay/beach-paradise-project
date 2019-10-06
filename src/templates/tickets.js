@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link, graphql, navigate } from 'gatsby';
 import { window } from 'browser-monads';
-import Layout from '../components/layout';
-import Nav from '../components/nav';
+import Layout from '../components/Layout';
+import Nav from '../components/Nav';
 import SEO from '../components/seo';
 import '../components/home/home.css';
 import './archive.css';
 
-import headerImg from '../images/headerimage.jpg';
+import headerImg from '../images/general-header-image.jpg';
 
 const Tickets = (props) => {
 
